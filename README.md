@@ -32,9 +32,9 @@ skimage.__version__ == '0.21.0'
 
 ## Data and Pretrained Model Weights
 
-Download the [data](https://drive.google.com/file/d/1FCVwqjb8_J-yTc47t1E0mF8TlM-NdMp5/view) and [pretrained model weights](https://drive.google.com/file/d/1tHohEMx35Dg5qh8X-15CQesx6Q0mDTpv/view). Unzip the files into the `./data` and `./code/weight` directories, respectively.
+Download the [data](https://drive.google.com/file/d/1FCVwqjb8_J-yTc47t1E0mF8TlM-NdMp5/view) and [pretrained model weights](https://drive.google.com/file/d/1tHohEMx35Dg5qh8X-15CQesx6Q0mDTpv/view). Unzip the files into `./data` and `./code/weight` directories, respectively.
 
-The correct paths of all files should be:
+The paths of all files should be:
 
 ```
 .
@@ -50,7 +50,7 @@ The correct paths of all files should be:
 │       ├── f-actin
 │       │   └── layer_9_f_128
 │       │       └── net_params_30000.pkl
-│       ├── fluorescent_microsphere
+│       ├── flureoscent_microsphere
 │       │   └── layer_9_f_128
 │       │       └── net_params_30000.pkl
 │       ├── nucleus
@@ -71,7 +71,7 @@ The correct paths of all files should be:
 │   │   ├── train_X_WF.npy
 │   │   ├── train_Y128.npy
 │   │   └── train_Y32.npy
-│   ├── fluorescent_microsphere
+│   ├── flureoscent_microsphere
 │   │   ├── test_X.npy
 │   │   ├── test_X_WF.npy
 │   │   ├── test_Y128.npy
@@ -98,9 +98,8 @@ The correct paths of all files should be:
 │       ├── train_X_WF.npy
 │       ├── train_Y128.npy
 │       └── train_Y32.npy
-├── figs
-│   └── overview.png
-└── upload.txt
+└── figs
+    └── overview.png
 ```
 
 ## Test
