@@ -20,7 +20,7 @@ Laser-scanning confocal microscopy serves as a critical instrument for microscop
 
 ## Overview
 
-![poster](figs/overview.png)
+![overview](figs/overview.png)
 
 ## Environment
 
@@ -30,25 +30,102 @@ numpy.__version__ == '1.24.4'
 skimage.__version__ == '0.21.0'
 ```
 
+## Data and Pretrained Model Weights
+
+Download the [data](https://drive.google.com/file/d/1FCVwqjb8_J-yTc47t1E0mF8TlM-NdMp5/view) and [pretrained model weights](https://drive.google.com/file/d/1tHohEMx35Dg5qh8X-15CQesx6Q0mDTpv/view). Unzip the files into the `./data` and `./code/weight` directories, respectively.
+
+The correct paths of all files should be:
+
+```
+.
+├── README.md
+├── code
+│   ├── model.py
+│   ├── test.py
+│   ├── test.sh
+│   ├── train.py
+│   ├── train.sh
+│   ├── utils.py
+│   └── weight
+│       ├── f-actin
+│       │   └── layer_9_f_128
+│       │       └── net_params_30000.pkl
+│       ├── fluorescent_microsphere
+│       │   └── layer_9_f_128
+│       │       └── net_params_30000.pkl
+│       ├── nucleus
+│       │   └── layer_9_f_128
+│       │       └── net_params_30000.pkl
+│       └── potato_tuber
+│           └── layer_9_f_128
+│               └── net_params_30000.pkl
+├── data
+│   ├── A_128.npy
+│   ├── A_32.npy
+│   ├── f-actin
+│   │   ├── test_X.npy
+│   │   ├── test_X_WF.npy
+│   │   ├── test_Y128.npy
+│   │   ├── test_Y32.npy
+│   │   ├── train_X.npy
+│   │   ├── train_X_WF.npy
+│   │   ├── train_Y128.npy
+│   │   └── train_Y32.npy
+│   ├── fluorescent_microsphere
+│   │   ├── test_X.npy
+│   │   ├── test_X_WF.npy
+│   │   ├── test_Y128.npy
+│   │   ├── test_Y32.npy
+│   │   ├── train_X.npy
+│   │   ├── train_X_WF.npy
+│   │   ├── train_Y128.npy
+│   │   └── train_Y32.npy
+│   ├── nucleus
+│   │   ├── test_X.npy
+│   │   ├── test_X_WF.npy
+│   │   ├── test_Y128.npy
+│   │   ├── test_Y32.npy
+│   │   ├── train_X.npy
+│   │   ├── train_X_WF.npy
+│   │   ├── train_Y128.npy
+│   │   └── train_Y32.npy
+│   └── potato_tuber
+│       ├── test_X.npy
+│       ├── test_X_WF.npy
+│       ├── test_Y128.npy
+│       ├── test_Y32.npy
+│       ├── train_X.npy
+│       ├── train_X_WF.npy
+│       ├── train_Y128.npy
+│       └── train_Y32.npy
+├── figs
+│   └── overview.png
+└── upload.txt
+```
+
 ## Test
 
 ```shell
+cd code
 python test.py --data_type=nucleus
 python test.py --data_type=flureoscent_microsphere
 python test.py --data_type=f-actin
 python test.py --data_type=potato_tuber
 ```
 
+The reconstructed images will be in `./code/result`.
+
 ## Train
 
 ```shell
+cd code
 python train.py --data_type=nucleus
 python train.py --data_type=flureoscent_microsphere
 python train.py --data_type=f-actin
 python train.py --data_type=potato_tuber
 ```
 
-The log and model files will be in `./log` and `./weight`, respectively.
+The log and model files will be in `./code/log` and `./code/weight`, respectively.
 
 ## Citation
 
