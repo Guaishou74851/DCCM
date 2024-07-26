@@ -2,7 +2,7 @@
 
 [![icon](https://img.shields.io/badge/Nature-Paper-<COLOR>.svg)](https://www.nature.com/articles/s44172-024-00236-x) ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Guaishou74851.DCCM)
 
-Shuai Liu, [Bin Chen](https://scholar.google.com/citations?hl=en&user=aZDNm98AAAAJ), Wenzhen Zou, [Hao Sha](https://scholar.google.com/citations?user=-mqUZ8oAAAAJ), Xiaochen Feng, [Sanyang Han](https://www.sigs.tsinghua.edu.cn/hsy/main.htm), [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ), Xuri Yao, [Jian Zhang](https://jianzhang.tech/), and [Yongbing Zhang](https://scholar.google.com/citations?user=0KlvTEYAAAAJ)
+Shuai Liu\*, [Bin Chen](https://scholar.google.com/citations?hl=en&user=aZDNm98AAAAJ)\*, Wenzhen Zou, [Hao Sha](https://scholar.google.com/citations?user=-mqUZ8oAAAAJ), Xiaochen Feng, [Sanyang Han](https://www.sigs.tsinghua.edu.cn/hsy/main.htm), [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ), Xuri Yao, [Jian Zhang](https://jianzhang.tech/)†, and [Yongbing Zhang](https://scholar.google.com/citations?user=0KlvTEYAAAAJ)†
 
 *Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China.*
 
@@ -13,6 +13,8 @@ Shuai Liu, [Bin Chen](https://scholar.google.com/citations?hl=en&user=aZDNm98AAA
 *Center for Quantum Technology Research, School of Physics, Beijing Institute of Technology, Beijing, China.*
 
 Accepted for publication in [Communications Engineering](https://www.nature.com/commseng/) (Nature Communications) 2024.
+
+\* Equal contribution   † Corresponding author
 
 ## Abstract
 
