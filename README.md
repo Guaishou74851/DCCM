@@ -12,7 +12,7 @@ Shuai Liu\*, [Bin Chen](https://scholar.google.com/citations?hl=en&user=aZDNm98A
 
 *Center for Quantum Technology Research, School of Physics, Beijing Institute of Technology, Beijing, China.*
 
-\* Equal contribution   † Corresponding author
+\* Equal contribution   † Corresponding authors
 
 Accepted for publication in [Communications Engineering](https://www.nature.com/commseng/) (Nature Communications) 2024.
 
