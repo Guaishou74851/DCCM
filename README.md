@@ -1,4 +1,4 @@
-# Compressive Confocal Microscopy Imaging at the Single-Photon Level with Ultra-Low Sampling Ratios (Communications Engineering 2024) [PyTorch]
+# (Nature Communications Engineering 2024) Compressive Confocal Microscopy Imaging at the Single-Photon Level with Ultra-Low Sampling Ratios [PyTorch]
 
 [![icon](https://img.shields.io/badge/Nature-Paper-<COLOR>.svg)](https://www.nature.com/articles/s44172-024-00236-x) ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Guaishou74851.DCCM)
 
