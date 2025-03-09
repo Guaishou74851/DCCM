@@ -16,15 +16,17 @@ Shuai Liu\*, [Bin Chen](https://scholar.google.com/citations?user=aZDNm98AAAAJ)\
 
 Accepted for publication in [Communications Engineering](https://www.nature.com/commseng/) (Nature Communications) 2024.
 
-## Abstract
+⭐ If DCCM is helpful to you, please star this repo. Thanks! 🤗
+
+## 📝 Abstract
 
 Laser-scanning confocal microscopy serves as a critical instrument for microscopic research in biology. However, it suffers from low imaging speed and high phototoxicity. Here we build a novel deep compressive confocal microscope, which employs a digital micromirror device as a coding mask for single-pixel imaging and a pinhole for confocal microscopic imaging respectively. Combined with a deep learning reconstruction algorithm, our system is able to achieve high-quality confocal microscopic imaging with low phototoxicity. Our imaging experiments with fluorescent microspheres demonstrate its capability of achieving single-pixel confocal imaging with a sampling ratio of only approximately 0.03% in specific sparse scenarios. Moreover, the deep compressive confocal microscope allows single-pixel imaging at the single-photon level, thus reducing the excitation light power requirement for confocal imaging and suppressing the phototoxicity. We believe that our system has great potential for long-duration and high-speed microscopic imaging of living cells.
 
-## Overview
+## 🍭 Overview
 
 ![overview](figs/overview.png)
 
-## Environment
+## ⚙ Environment
 
 ```shell
 torch.__version__ == '2.2.1+cu121'
@@ -32,7 +34,7 @@ numpy.__version__ == '1.24.4'
 skimage.__version__ == '0.21.0'
 ```
 
-## Data and Pretrained Model Weights
+## 📚 Data and Pretrained Model Weights
 
 Download the [data](https://drive.google.com/file/d/1FCVwqjb8_J-yTc47t1E0mF8TlM-NdMp5/view) and [pretrained model weights](https://drive.google.com/file/d/1tHohEMx35Dg5qh8X-15CQesx6Q0mDTpv/view). Unzip the files into `./data` and `./code/weight` directories, respectively.
 
@@ -104,7 +106,7 @@ The paths of all files should be:
     └── overview.png
 ```
 
-## Test
+## ⚡ Test
 
 ```shell
 cd code
@@ -116,7 +118,7 @@ python test.py --data_type=potato_tuber
 
 The reconstructed images will be in `./code/result`.
 
-## Train
+## 🔥 Train
 
 ```shell
 cd code
@@ -128,7 +130,7 @@ python train.py --data_type=potato_tuber
 
 The log and model files will be in `./code/log` and `./code/weight`, respectively.
 
-## Citation
+## 🎓 Citation
 
 If you find the code helpful in your research or work, please cite the following paper:
 
